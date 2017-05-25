@@ -10,7 +10,7 @@ How to run:
    On Mac: `brew install io`
 
  - Run:
-    `$ io blockchain.io`
+    `$ io main.io`
 
 
 Future Changes
