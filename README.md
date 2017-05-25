@@ -6,7 +6,7 @@ Simple Blockchain example written in Io Language.
 
 How to run:
 -----------
-Install io
+Install Io
    On Mac: `brew install io`
 
 Run:
