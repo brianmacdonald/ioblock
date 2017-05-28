@@ -16,6 +16,7 @@ How to run:
 Future Changes
 --------------
  - Implement peer server communication.
+ - Keep sockets open.
 
 
 Acknowledgements
