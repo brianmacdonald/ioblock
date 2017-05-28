@@ -7,9 +7,9 @@ Chain := Object clone do (
       then(blockchain append(newBlock))
   )
   generateNextBlock := method(blockdata,
-    prev := getLatest()
-    nextIndex := blockchain size + 1
-    nextTime := 1465154709
+    prev := Chain getLatest()
+    nextIndex := Chain blockchain size + 1
+    nextTime := Date asNumber floor
     nextHash := ChainManager calculateHash(nextIndex, prev hash, nextTime, blockdata)
     BlockItem create(nextIndex, prev hash, nextTime, blockdata, nextHash)
   )
