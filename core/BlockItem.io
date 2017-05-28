@@ -1,6 +1,6 @@
 // BlockItem Object 
-BlockItem := Object clone
-BlockItem create := method(
+BlockItem := Object clone do(
+  create := method(
     index, prevHash, timestamp, data, hash,
     blockItem := BlockItem clone
     blockItem index := index
@@ -9,4 +9,5 @@ BlockItem create := method(
     blockItem data := data
     blockItem hash := hash
     blockItem
+  )
 )
