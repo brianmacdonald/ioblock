@@ -1,4 +1,4 @@
-IO Block
+Io Block
 ========
 
 Simple Blockchain example written in Io Language. 
